@@ -1,0 +1,11 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+export XDG_CACHE_HOME=/dev/shm/jwhendy/.cache
+if [ ! -f $XDG_CACHE_HOME ];
+then
+    mkdir -p -m 0700 $XDG_CACHE_HOME
+fi
