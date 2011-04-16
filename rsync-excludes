@@ -1,0 +1,8 @@
+.cache
+.mozilla
+.thumbnails
+.eclipse
+.elisp/org.git
+.local/share/Trash
+Desktop/bup/*
+vault

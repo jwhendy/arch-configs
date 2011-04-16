@@ -1,0 +1,68 @@
+Xft.dpi:		96
+Xft.antialias:		true
+Xft.rgba:		rgb
+Xft.hinting:		true
+Xft.hintstyle:		hintslight
+
+
+URxvt.font: xft:Droid Sans Mono Slashed:size=9
+#URxvt.font: xft:Inconsolata-g:size=9
+#URxvt.font: xft:DejaVu Sans Mono:size=9
+URxvt.perl-ext-common:	default,tabbed
+URxvt.scrollBar: false
+URxvt.termName: rxvt-unicode
+
+
+### color definitions ###
+
+# foreground, light grey
+URxvt.color0:    #C0C3C3
+
+# light red
+#URxvt.color1:    #e9897c
+
+# light blue, yaourt left highlights
+URxvt.color3:    #A39AFF
+
+# light blue, yaourt number hilts
+#URxvt.color4:    #736AFF
+
+# ??
+#URxvt.color2:    #736AFF
+#URxvt.color5:    #736AFF
+#URxvt.color6:    #736AFF
+#URxvt.color8:    #736AFF
+#URxvt.color9:    #f99286
+#URxvt.color15:    #ffffff
+
+# yaourt version numbers
+URxvt.color10:    #efefef
+
+# pale red, yaourt right highlights
+# devices
+#URxvt.color11:    #e9897c
+URxvt.color11:    #3333ff
+
+# folders, light blue
+URxvt.color12:    #1994d1
+
+# yaourt repo name, default purple
+#URxvt.color13:    #ffffff
+
+# symlinks
+URxvt.color14:    #ffffff
+
+### end color defs ###
+
+URxvt.foreground: #C0C0C0
+URxvt.background: #000000
+URxvt.tabbed.tabbar-fg: 12
+URxvt.tabbed.tabbar-bg: -1
+URxvt.tabbed.tab-fg:    14
+URxvt.tabbed.tab-bg:    -1
+
+
+#URxvt*transparent:true
+#URxvt.background: rgba:3f00/3f00/3f00/dddd
+#URxvt.depth: 32
+#URxvt*geometry:124x24

@@ -1,0 +1,15 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>         <type>    <options>          <dump> <pass>
+devpts                 /dev/pts      devpts    defaults            0      0
+shm                    /dev/shm      tmpfs     nodev,nosuid        0      0
+/dev/mapper/root / ext4 defaults 0 1
+/dev/sda1 /boot ext2 defaults 0 1
+
+//169.10.16.140/a1rwhzz /media/h cifs user=a1rwhzz,noauto,uid=1000,gid=100,nobrl 0 0
+//169.10.16.134/Tc_crpl /media/q cifs user=a1rwhzz,noauto,uid=1000,gid=100,nobrl 0 0
+//169.10.16.140/Tc /media/p cifs user=a1rwhzz,noauto,uid=1000,gid=100,nobrl 0 0
+
+#//169.10.9.93/a1rwhzz /media/cad cifs user=a1rwhzz,noauto 0 0
+#//169.11.80.41/LINUS /media/linux cifs user=a1rwhzz,noauto 0 0
